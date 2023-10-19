@@ -9,6 +9,7 @@
 from textblob import TextBlob
 from collections import Counter
 from json import load
+import os
 
 
 def __build_word_affect__(self):
