@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nrclex"
+version = "4.0"
+authors = [
+  { name="metalcorebear", email="mark.mbailey@gmail.com" },
+]
+description = "An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "textblob"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/metalcorebear/NRCLex"
+"Bug Tracker" = "https://github.com/metalcorebear/NRCLex/issues"
